@@ -1,0 +1,1 @@
+Shamelessly stolen from [this post](https://www.reddit.com/r/DnD/comments/2zh01c/i_made_my_bard_a_customized_character_sheet_using/) by /u/hurrayforzac on reddit. Looking to turn this into a class file
