@@ -24,12 +24,23 @@ skill_proficiencies = [
     'religion',
 ]
 
+# Proficiences and languages
+proficiencies_extra = ('longbows', 'longswords', 'shortbows', 'shortswords')
+languages = "Common, Elvish, Draconic, Dwarvish, Goblin."
+
 # Inventory
 cp = 316
 sp = 283
 ep = 28
 gp = 125
 pp = 0
+weapons = ('shortsword', 'longsword')
+equipment = (
+    """Gallon of ale, red cloak, shortsword, longsword, jar of salt, vodka
+    (500mL), potion of vitality, wand of magic missiles (7/7),
+    component pouch, spellbook, backpack, bottle of ink, ink pen, 10
+    sheets of parchment, small knife, tome of historical lore, holy
+    symbol, prayer book, set of common clothes, pouch.""")
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
