@@ -47,7 +47,7 @@ spells = ('blindness deafness', 'burning hands', 'detect magic',
           'shocking grasp', 'sleep')
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life', 'mage armor',
-                  'ray of sickness', 'shield', 'sleep')
+                  'ray of sickness', 'magic missile', 'sleep')
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
