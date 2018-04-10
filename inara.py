@@ -3,16 +3,16 @@ character_class = 'wizard'
 player_name = 'Mark'
 background = "Acolyte"
 race = "High-Elf"
-level = 3
+level = 4
 alignment = "Chaotic good"
-xp = 2190
-hp_max = 16
+xp = 3093
+hp_max = 20
 
 # Ability Scores
 strength = 10
 dexterity = 15
 constitution = 14
-intelligence = 16
+intelligence = 18
 wisdom = 12
 charisma = 8
 skill_proficiencies = [
@@ -27,27 +27,29 @@ skill_proficiencies = [
 languages = "Common, Elvish, Draconic, Dwarvish, Goblin."
 
 # Inventory
-cp = 316
-sp = 283
-ep = 28
+cp = 596
+sp = 365
+ep = 18
 gp = 125
 pp = 0
 weapons = ('shortsword', 'longsword')
 equipment = (
-    """Gallon of ale, red cloak, shortsword, longsword, jar of salt, vodka
-    (500mL), potion of vitality, wand of magic missiles (7/7),
-    component pouch, spellbook, backpack, bottle of ink, ink pen, 10
-    sheets of parchment, small knife, tome of historical lore, holy
-    symbol, prayer book, set of common clothes, pouch.""")
+    """Gallon of ale, red-brand's cloak, shortsword, longsword, jar of
+    salt, vodka (500mL), potion of vitality, wand of magic missiles
+    (6/7), component pouch, spellbook, backpack, bottle of ink, ink
+    pen, 10 sheets of parchment, small knife, tome of historical lore,
+    holy symbol, prayer book, set of common clothes, pouch.""")
 
 # List of known spells
-spells = ('blindness deafness', 'burning hands', 'detect magic',
-          'false life', 'mage armor', 'mage hand', 'magic missile',
-          'prestidigitation', 'ray of frost', 'ray of sickness', 'shield',
-          'shocking grasp', 'sleep')
+spells = ('blindness deafness', 'burning hands', 'chill touch',
+          'detect magic', 'false life', 'mage armor', 'mage hand',
+          'magic missile', "melf's acid arrow", 'prestidigitation',
+          'ray of frost', 'ray of sickness', 'shield', 'shocking grasp',
+          'sleep', )
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life', 'mage armor',
-                  'ray of sickness', 'magic missile', 'sleep')
+                   'ray of sickness', 'magic missile', 'melfs acid arrow',
+                   'chill touch', 'fake ness',)
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
