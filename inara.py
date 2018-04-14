@@ -45,11 +45,11 @@ spells = ('blindness deafness', 'burning hands', 'chill touch',
           'detect magic', 'false life', 'mage armor', 'mage hand',
           'magic missile', "melf's acid arrow", 'prestidigitation',
           'ray of frost', 'ray of sickness', 'shield', 'shocking grasp',
-          'sleep', )
+          'sleep', 'do I get another spell?')
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life', 'mage armor',
                    'ray of sickness', 'magic missile', 'melfs acid arrow',
-                   'chill touch', 'fake ness',)
+                   'chill touch', )
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
