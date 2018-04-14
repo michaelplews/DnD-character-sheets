@@ -3,10 +3,10 @@ character_class = 'wizard'
 player_name = 'Mark'
 background = "Acolyte"
 race = "High-Elf"
-level = 4
+level = 5
 alignment = "Chaotic good"
-xp = 3093
-hp_max = 20
+xp = 6500
+hp_max = 24
 
 # Ability Scores
 strength = 10
@@ -52,11 +52,14 @@ spells = (
     'blindness deafness', 'chromatic orb',
     # Learned at lvl 4
     'chill touch', "melf's acid arrow", 'phantasmal force',
+    # Learned at lvl 5
+    'animate dead', 'vampiric touch',
 )
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life', 'mage armor',
-                   'ray of sickness', 'magic missile', 'melfs acid arrow',
-                   'chill touch', )
+                   'ray of sickness', 'melfs acid arrow',
+                   'chill touch', 'animate dead', 'vampiric touch',
+                   'burning hands')
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
@@ -77,7 +80,7 @@ features_and_traits = (
     your spells. The saving throw DC to resist a spell you cast is
     13. Your attack bonus when you make an attack with a spell is
     +5. See the rulebook for rules on casting your spells.
-
+    
     Arcane Recovery: You can regain some of your magical energy by
     studying your spellbook. Once per day during a short rest, you can
     choose to recover expended spell slots with a combined level equal
