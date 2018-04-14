@@ -41,11 +41,18 @@ equipment = (
     holy symbol, prayer book, set of common clothes, pouch.""")
 
 # List of known spells
-spells = ('blindness deafness', 'burning hands', 'chill touch',
-          'detect magic', 'false life', 'mage armor', 'mage hand',
-          'magic missile', "melf's acid arrow", 'prestidigitation',
-          'ray of frost', 'ray of sickness', 'shield', 'shocking grasp',
-          'sleep', 'do I get another spell?')
+spells = (
+    # Start spells
+    'mage hand', 'prestidigitation', 'ray of frost',
+    'shocking grasp', 'burning hands', 'detect magic',
+    'mage armor', 'magic missile', 'shield', 'sleep',
+    # Learned at lvl 2
+    'false life', 'ray of sickness',
+    # Learned at lvl 3
+    'blindness deafness', 'chromatic orb',
+    # Learned at lvl 4
+    'chill touch', "melf's acid arrow", 'phantasmal force',
+)
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life', 'mage armor',
                    'ray of sickness', 'magic missile', 'melfs acid arrow',
