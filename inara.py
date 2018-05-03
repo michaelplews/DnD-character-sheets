@@ -5,7 +5,7 @@ background = "Acolyte"
 race = "High-Elf"
 level = 4
 alignment = "Chaotic good"
-xp = 3093
+xp = 3665
 hp_max = 24
 
 # Ability Scores
@@ -29,16 +29,18 @@ languages = "Common, Elvish, Draconic, Dwarvish, Goblin."
 # Inventory
 cp = 596
 sp = 365
-ep = 18
-gp = 125
-pp = 0
-weapons = ('shortsword', 'longsword')
+ep = 66
+gp = 157
+pp = 4
+weapons = ('shortsword', 'longsword', 'quarterstaff')
 equipment = (
     """Gallon of ale, red-brand's cloak, shortsword, longsword, jar of
     salt, vodka (500mL), potion of vitality, wand of magic missiles
     (6/7), component pouch, spellbook, backpack, bottle of ink, ink
     pen, 10 sheets of parchment, small knife, tome of historical lore,
-    holy symbol, prayer book, set of common clothes, pouch.""")
+    holy symbol, prayer book, set of common clothes, pouch, 2 platinum
+    rings, diamond (worth 100gp), black spider staff, dwarven ale mug
+    (hammered electrum), 9 small gemstones.""")
 
 # List of known spells
 spells = (
@@ -55,8 +57,9 @@ spells = (
 )
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life', 'mage armor',
-                   'ray of sickness', 'magic missile', 'melfs acid arrow',
-                   'phantasmal force', 'chromatic orb')
+                   'ray of sickness', 'melfs acid arrow',
+                   'phantasmal force', 'shield', 'burning hands',
+                   'sleep', 'chromatic orb')
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
