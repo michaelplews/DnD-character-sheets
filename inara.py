@@ -6,7 +6,7 @@ race = "High-Elf"
 level = 4
 alignment = "Chaotic good"
 xp = 3093
-hp_max = 20
+hp_max = 24
 
 # Ability Scores
 strength = 10
