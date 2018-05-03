@@ -56,10 +56,10 @@ spells = (
     'chill touch', "melf's acid arrow", 'phantasmal force',
 )
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ('blindness deafness', 'false life', 'mage armor',
+spells_prepared = ('blindness deafness', 'false life',
                    'ray of sickness', 'melfs acid arrow',
                    'phantasmal force', 'shield', 'burning hands',
-                   'sleep', 'chromatic orb')
+                   'sleep', )
 
 # Backstory
 personality_traits = """I use polysyllabic words that convey the impression of
