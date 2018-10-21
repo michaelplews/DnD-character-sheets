@@ -1,3 +1,5 @@
+dungeonsheets_version = "0.5.0"
+
 name = 'Io Desolata'
 character_class = 'Warlock'
 player_name = 'Mark'

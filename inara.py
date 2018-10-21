@@ -1,3 +1,5 @@
+dungeonsheets_version = "0.5.0"
+
 name = 'Inara Serradon'
 character_class = 'wizard'
 player_name = 'Mark'
@@ -5,7 +7,7 @@ background = "Acolyte"
 race = "High-Elf"
 level = 4
 alignment = "Chaotic good"
-xp = 3665
+xp = 5190
 hp_max = 24
 
 # Ability Scores
@@ -30,7 +32,7 @@ languages = "Common, Elvish, Draconic, Dwarvish, Goblin."
 cp = 596
 sp = 365
 ep = 66
-gp = 157
+gp = 137
 pp = 4
 weapons = ('shortsword', 'longsword', 'quarterstaff')
 equipment = (
@@ -54,7 +56,10 @@ spells = (
     'blindness deafness', 'chromatic orb',
     # Learned at lvl 4
     'chill touch', "melf's acid arrow", 'phantasmal force',
+    # Learned from scrolls, etc
+    'invisibility',
 )
+
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('blindness deafness', 'false life',
                    'ray of sickness', 'melfs acid arrow',
@@ -80,7 +85,7 @@ features_and_traits = (
     your spells. The saving throw DC to resist a spell you cast is
     13. Your attack bonus when you make an attack with a spell is
     +5. See the rulebook for rules on casting your spells.
-
+    
     Arcane Recovery: You can regain some of your magical energy by
     studying your spellbook. Once per day during a short rest, you can
     choose to recover expended spell slots with a combined level equal
