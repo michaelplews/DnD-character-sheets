@@ -1,4 +1,4 @@
-"""This file describes the heroic adventurer Dain Torunn.
+"""This file describes the heroic adventurer Gunnloda Wavesplitter.
 
 Modify this file as you level up and then re-generate the character
 sheet by running ``makesheets`` from the command line.
@@ -7,15 +7,15 @@ sheet by running ``makesheets`` from the command line.
 
 dungeonsheets_version = "0.5.0"
 
-name = 'Dain Wavesmasher'
+name = 'Gunnloda Wavesplitter'
 character_class = 'Druid'
 player_name = 'Mark'
 background = "Sailor"
 race = "Hill Dwarf"
-level = 1
+level = 2
 alignment = "Lawful good"
-xp = 0
-hp_max = 12
+xp = 300
+hp_max = 21
 
 # Ability Scores
 strength = 10
@@ -42,11 +42,12 @@ weapons = ('scimitar', 'quarterstaff') # Example: ('shortsword', 'longsword')
 armor = "Leather armor" # Eg "light leather armor"
 shield = "wooden shield" # Eg "shield"
 
-equipment = """an explorer's pack, ash quarterstaff (druidic focus), a belaying
-pin (club), 50 feet of silk rope, a book that tells the story of a
-hero ridding the world of undead evil with the help of a magic relic
-(the last chapter is missing), a set of common dothes, and a belt
-pouch."""
+equipment = """ash quarterstaff (druidic focus), backpack, bedroll, mess kit,
+tinderbox, rations (10 days), waterskin, 50 feet of hemp rope, rolling
+pin, a belaying pin (club), 50 feet of silk rope, a book that tells
+the story of a hero ridding the world of undead evil with the help of
+a magic relic (the last chapter is missing), a set of common dothes,
+and a belt pouch."""
 
 attacks_and_spellcasting = ""
 
@@ -54,11 +55,12 @@ attacks_and_spellcasting = ""
 # Example: spells = ('magic missile', 'mage armor')
 spells = (
     # Cantrips 
-    'shillelagh', 'poison spray',
+    'shillelagh', 'poison spray', 'druidcraft',
     # Prepared spells
     'speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
 # Which spells have been prepared (not including cantrips)
 spells_prepared = ('speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
+wild_shapes = ('rat', 'spider')
 
 # Backstory
 # TODO: Describe your backstory here
