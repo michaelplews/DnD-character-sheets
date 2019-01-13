@@ -42,24 +42,25 @@ weapons = ('scimitar', 'quarterstaff') # Example: ('shortsword', 'longsword')
 armor = "Leather armor" # Eg "light leather armor"
 shield = "wooden shield" # Eg "shield"
 
-equipment = """ash quarterstaff (druidic focus), backpack, bedroll, mess kit,
+equipment = """ash quarterstaff (druidic focus), backpack, bedroll, mess kit (2),
 tinderbox, rations (10 days), waterskin, 50 feet of hemp rope, rolling
 pin, a belaying pin (club), 50 feet of silk rope, a book that tells
 the story of a hero ridding the world of undead evil with the help of
-a magic relic (the last chapter is missing), a set of common dothes,
-and a belt pouch."""
+a magic relic (the last chapter is missing), a set of common dothes, a
+belt pouch, cloak of protection, potion of healing, chain shirt, flask
+of alchemist fire, lantern, thieves tools, spellbook."""
 
 attacks_and_spellcasting = ""
 
 # List of known spells
 # Example: spells = ('magic missile', 'mage armor')
-spells = (
-    # Cantrips 
-    'shillelagh', 'poison spray', 'druidcraft',
-    # Prepared spells
-    'speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
+# spells = (
+#     # Cantrips 
+#     'shillelagh', 'poison spray', 'druidcraft',
+#     # Prepared spells
+#     'speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ('speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
+spells_prepared = ('shillelagh', 'poison spray', 'druidcraft', 'speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
 wild_shapes = ('rat', 'spider')
 
 # Backstory
@@ -90,7 +91,7 @@ features_and_traits = """4'0" 140 lbs. 55 years old
 
 **Darkvision.**
 
- **Dwarven Resilience.** You have advantage on saving
+**Dwarven Resilience.** You have advantage on saving
 throws against poison, and you have resistance against poison
 damage.
 
