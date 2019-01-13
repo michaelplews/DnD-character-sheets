@@ -12,10 +12,10 @@ character_class = 'Druid'
 player_name = 'Mark'
 background = "Sailor"
 race = "Hill Dwarf"
-level = 2
+level = 3
 alignment = "Lawful good"
 xp = 300
-hp_max = 21
+hp_max = 30
 
 # Ability Scores
 strength = 10
@@ -60,11 +60,17 @@ attacks_and_spellcasting = ""
 #     # Prepared spells
 #     'speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
 # Which spells have been prepared (not including cantrips)
-spells_prepared = ('shillelagh', 'poison spray', 'druidcraft', 'speak with animals', 'entangle', 'cure wounds', 'create or destroy water')
+spells_prepared = (
+    # Cantrips
+    'shillelagh', 'poison spray', 'druidcraft',
+    # First level spells
+    'charm person', 'faerie fire', 'thunderwave',
+    # Second level spells
+    'locate animals or plants', 'flaming sphere',
+)
 wild_shapes = ('rat', 'spider')
 
 # Backstory
-# TODO: Describe your backstory here
 personality_traits = """I am quick to accept new friends, but quick to judge and will
 easily punish trangressions. My true friends know they can rely on my
 no matter what. You will not struggle to know which category you fall
