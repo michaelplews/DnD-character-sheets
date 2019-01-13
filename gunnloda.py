@@ -14,7 +14,7 @@ background = "Sailor"
 race = "Hill Dwarf"
 level = 3
 alignment = "Lawful good"
-xp = 300
+xp = 900
 hp_max = 30
 
 # Ability Scores
@@ -35,7 +35,7 @@ languages = "Common, Dwarvish, Druidic"
 cp = 0
 sp = 0
 ep = 0
-gp = 70
+gp = 75
 pp = 0
 
 weapons = ('scimitar', 'quarterstaff') # Example: ('shortsword', 'longsword')
@@ -43,12 +43,13 @@ armor = "Leather armor" # Eg "light leather armor"
 shield = "wooden shield" # Eg "shield"
 
 equipment = """ash quarterstaff (druidic focus), backpack, bedroll, mess kit (2),
-tinderbox, rations (10 days), waterskin, 50 feet of hemp rope, rolling
+tinderbox, rations (9 days), waterskin, 50 feet of hemp rope, rolling
 pin, a belaying pin (club), 50 feet of silk rope, a book that tells
 the story of a hero ridding the world of undead evil with the help of
 a magic relic (the last chapter is missing), a set of common dothes, a
 belt pouch, cloak of protection, potion of healing, chain shirt, flask
-of alchemist fire, lantern, thieves tools, spellbook."""
+of alchemist fire, lantern, thieves tools, spellbook, gold ring, blank
+book, moss agate (3), a black cloth."""
 
 attacks_and_spellcasting = ""
 
@@ -68,7 +69,7 @@ spells_prepared = (
     # Second level spells
     'locate animals or plants', 'flaming sphere',
 )
-wild_shapes = ('rat', 'spider')
+wild_shapes = ('rat', 'spider', 'swarm of rats')
 
 # Backstory
 personality_traits = """I am quick to accept new friends, but quick to judge and will
