@@ -49,7 +49,7 @@ the story of a hero ridding the world of undead evil with the help of
 a magic relic (the last chapter is missing), a set of common dothes, a
 belt pouch, cloak of protection, potion of healing, chain shirt, flask
 of alchemist fire, lantern, thieves tools, spellbook, gold ring, blank
-book, moss agate (3), a black cloth."""
+book, moss agate (2), a black cloth, candles (2)."""
 
 attacks_and_spellcasting = ""
 
@@ -69,7 +69,7 @@ spells_prepared = (
     # Second level spells
     'locate animals or plants', 'flaming sphere',
 )
-wild_shapes = ('rat', 'spider', 'swarm of rats')
+wild_shapes = ('rat', 'spider', 'swarm of rats', 'wolf')
 
 # Backstory
 personality_traits = """I am quick to accept new friends, but quick to judge and will
